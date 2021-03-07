@@ -25,29 +25,29 @@ It's not just a number. It's like a pakistani DNA or fingerprint. You can get al
 
 It is in pattern `ABCDE-FGHIJKL-M`
 
-`A` shows `PROVINCE` e.g `PUNJAB`
-`B` shows `DIVISION` e.g `SARGHODHA`
-`C` shows `DISTRICT`
-`D` shows `TEHSIL`  
-`E` shows `UNION COUNSIL`  
+- `A` shows `PROVINCE` e.g `PUNJAB`
+- `B` shows `DIVISION` e.g `SARGHODHA`
+- `C` shows `DISTRICT`
+- `D` shows `TEHSIL`  
+- `E` shows `UNION COUNSIL`  
 
-`FGHIJKL` shows `FAMILY TREE`
+- `FGHIJKL` shows `FAMILY TREE`
 
-`M` shows `GENDER` e.g `MALE` or `FEMALE`
+- `M` shows `GENDER` e.g `MALE` or `FEMALE`
 
 ### A (Province)
-If A = 1 Then Resident lives in `KPK`
-If A = 2 Then Resident lives in `FATA`
-If A = 3 Then Resident lives in `PUNJAB`
-If A = 4 Then Resident lives in `SINDH`
-If A = 5 Then Resident lives in `BALOCHISTAN`
-If A = 6 Then Resident lives in `ISLAMABAD`
-If A = 7 Then Resident lives in `Gilgit-Baltistan`
+- If A = 1 Then Resident lives in `KPK`
+- If A = 2 Then Resident lives in `FATA`
+- If A = 3 Then Resident lives in `PUNJAB`
+- If A = 4 Then Resident lives in `SINDH`
+- If A = 5 Then Resident lives in `BALOCHISTAN`
+- If A = 6 Then Resident lives in `ISLAMABAD`
+- If A = 7 Then Resident lives in `Gilgit-Baltistan`
 
 
 ### M (Gender)
-IF M = 1 or 3 or 5 or 7 or 9 Then Resident is `MALE`
-IF M = 2 or 4 or 6 or 8      Then Resident is `FEMALE`
+- IF M = 1 or 3 or 5 or 7 or 9 Then Resident is `MALE`
+- IF M = 2 or 4 or 6 or 8      Then Resident is `FEMALE`
 
 
 
