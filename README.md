@@ -1,5 +1,5 @@
-# pak_cnic_pattern
-This document describes how an **pakistani cnic(NATIONAL IDENTITY CARD) number** looks like and what **information** can we get from it.
+# Pakistani National Card Pattern
+This document describes how an **Pakistani cnic (NATIONAL IDENTITY CARD) number** looks like and what **information** can we get from it.
 According to official **NADRA** [defination](https://www.nadra.gov.pk/identity/identity-cnic) , NIC is defined as
 ```
 National Identity Card (NIC) is issued to the citizens of Pakistan. 
