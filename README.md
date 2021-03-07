@@ -25,7 +25,7 @@ It's not just a number. It's like a pakistani DNA or fingerprint. You can get al
 
 It is in pattern `ABCDE-FGHIJKL-M`
 
-- `A` shows `PROVINCE` e.g `PUNJAB`
+- [`A`](#a-province) shows `PROVINCE` e.g `PUNJAB`
 - `B` shows `DIVISION` e.g `SARGHODHA`
 - `C` shows `DISTRICT`
 - `D` shows `TEHSIL`  
@@ -33,7 +33,7 @@ It is in pattern `ABCDE-FGHIJKL-M`
 
 - `FGHIJKL` shows `FAMILY TREE`
 
-- `M` shows `GENDER` e.g `MALE` or `FEMALE`
+- [`M`](#m-gender) shows `GENDER` e.g `MALE` or `FEMALE`
 
 ### A (Province)
 - If A = 1 Then Resident lives in `KPK`
