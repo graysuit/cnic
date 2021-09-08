@@ -50,7 +50,7 @@ It is in pattern `ABCDE-FGHIJKL-M`
 - IF M = 2 or 4 or 6 or 8      Then Resident is `FEMALE`
 
 # How to get Family Tree from cnic no. ?
-Send text message to `8008` along with cnic number without dashes in format `ABCDEFGHIJKL`.
+Send text message to `8009` along with cnic number without dashes in format `ABCDEFGHIJKL`. reference: [NADRA](https://www.nadra.gov.pk/public-engagement)
 
 # Contribute
 Document still incomplete due to lack of knowledge. If you think anything more be added, please add it without any hesitation at [issues](https://github.com/graysuit/Pakistan-Card-Pattern/issues) or [Pull Request](https://github.com/graysuit/Pakistan-Card-Pattern/pulls).
