@@ -48,14 +48,6 @@
     		Location.innerHTML = "Residence: " + setLetterCase(locate(val));
 
         }
-    	
-        function isNumber(num)
-        {
-            trackLocation();
-            var charCode = (num.which) ? num.which : num.keyCode
-            if (charCode > 31 && (charCode < 48 || charCode > 57)) return false;
-            return true;
-        }
     </script>
 	
 </head>
@@ -64,8 +56,7 @@
         <input 
     	    id="cnic" 
     		oninput="trackLocation()" 
-			onkeypress="return isNumber(event)"
-    		placeholder="Enter full CNIC without dashes like 1560277306097"
+    		placeholder="Enter CNIC with dashes like 15602-7730609-7"
             style="width:330"
             pattern="[0-9]"			
     	/><br/>
