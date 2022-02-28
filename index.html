@@ -4,7 +4,9 @@
 <meta charset="UTF8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CNIC Location Tracker</title>
-    
+<style>
+    p {color:#6c57ff}
+</style>
     
 
 <script> <!-- Helper Code Starts Here -->
@@ -28,16 +30,21 @@ function setLetterCase(characters) {
     }
     return refined;
 }
-
+function clear()
+{
+    error("");
+    warn("");
+    document.getElementById("Gender").innerHTML = "Gender: ";
+    document.getElementById("Location").innerHTML = "Residence: ";
+}
 function trackLocation() {
+    clear();
     var cnic = document.getElementById("cnic");
     var val = cnic.value.trim();
     if (val.length != 15) {
         warn("Example: 12345-6789012-3");
         return error("CNIC should be 15 digit long including dashes");
     }
-    error("");
-    warn("");
     var Location = document.getElementById("Location");
     var Gender = document.getElementById("Gender");
     Gender.innerHTML = "Gender: " + gender(val);
@@ -1257,21 +1264,20 @@ function locate(cnic) {
     
     
 </head>
-<body> <!-- Markup Code Starts Here -->
+<body style="background-color:#161b22"> <!-- Markup Code Starts Here -->
 <center> 
     <input 
         id="cnic" 
         oninput="trackLocation()" 
         placeholder="Enter CNIC with dashes like 15602-7730609-7"
         style="width:330"
-        pattern="[0-9]"			
     /><br/>
     <p id="error" style="color:red"></p>
     <p id="warn" style="color:yellow"></p>
-    <p id="Location"></p>
-    <p id="Gender"></p><br/>
+    <p id="Location" style="color:#13d913">Residence: </p>
+    <p id="Gender" style="color:#23f9d0">Gender:</p><br/>
+    <p style="color:white">Feedback/Suggest/Complain at GMAIL: <b>hackrefisher</b></p>
     <a href="http://github.com/graysuit/cnic/discussions/new">Discussion</a> | <a href="http://github.com/graysuit/cnic/issues/new">Issues</a>
-    <p>or mail me on <b>hackrefisher@gmail.com</b></p>
 </center> 
 </body> <!-- Markup Code End Here -->
     
