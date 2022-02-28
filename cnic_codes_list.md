@@ -1,6 +1,6 @@
 
 Suppose, I have example cnic `55201-1234567-7`. Note first 5 digits i.e `55201`. Treeview will look like
-```
+```python
 5 = BALOCHISTAN
     5 = SIBBI
         2 = KOHLU
