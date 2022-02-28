@@ -9,6 +9,7 @@ CNIC number looks like below:
 2374982638947
 26349-6293643-8
 ```
+![card](cnic_sample.jpg) 
 
 ## Pattern
 It's not just a number. It's like a pakistani DNA or fingerprint. You can get alot information from it. 
