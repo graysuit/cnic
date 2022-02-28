@@ -1,5 +1,5 @@
 # What is CNIC ?
-CNIC is 13 digit long unique identity number alotted to Pakistani nationals.
+CNIC is 13 digit long unique identity number alotted to **Pakistani** nationality holder.
 CNIC number looks like below:
 ```
 57469-0532456-7
