@@ -47,7 +47,7 @@ It is in pattern `ABCDE-FGHIJKL-M`
 
 ### M (Gender)
 - IF M = 1 or 3 or 5 or 7 or 9 Then Resident is `MALE`
-- IF M = 2 or 4 or 6 or 8      Then Resident is `FEMALE`
+- IF M = 0 or 2 or 4 or 6 or 8 Then Resident is `FEMALE`
 
 # How to get Family Tree from cnic no. ?
 Send text message to `8009` along with cnic number without dashes in format `ABCDEFGHIJKL`. reference: [NADRA](https://www.nadra.gov.pk/public-engagement)
