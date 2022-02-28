@@ -11,7 +11,7 @@ CNIC number looks like below:
 ```
 ![card](cnic_sample.jpg) 
 
-## Pattern
+# How cnic exposes location and gender ?
 It's not just a number. It's like a pakistani DNA or fingerprint. You can get alot information from it. 
 
 It is in pattern `ABCDE-FGHIJKL-M`
@@ -41,5 +41,10 @@ It is in pattern `ABCDE-FGHIJKL-M`
 - IF M = 1 or 3 or 5 or 7 or 9 Then Resident is `MALE`
 - IF M = 0 or 2 or 4 or 6 or 8 Then Resident is `FEMALE`
 
+# Tool
+I have created tiny javascript program. So no manuall work needed.
+Put cnic and that tool will find and show details (location and gender) itself.
+Please view: [CNIC Tracker](https://graysuit.github.io/cnic) .
+
 # Contribute
-Document still incomplete due to lack of knowledge. If you think anything more be added, please add it without any hesitation at [issues](https://github.com/graysuit/Pakistan-Card-Pattern/issues) or [Pull Request](https://github.com/graysuit/Pakistan-Card-Pattern/pulls).
+If it locate wrong location, kindly gmail at `hackrefisher` along with photo of CNIC card that indicate faulty results. Thank you
