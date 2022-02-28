@@ -1,0 +1,93 @@
+<head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNIC Location Tracker</title>
+	<style>
+        .capitalize {
+            text-transform: capitalize;
+        }
+	</style>
+	<script src="cnic.js"></script>
+    <script>
+        function error(msg)
+        {
+            document.getElementById("error").innerHTML = msg;
+        }
+    	
+        function warn(msg)
+        {
+            document.getElementById("warn").innerHTML = msg;
+        }
+		
+        function getRandomColor() 
+		{
+          return 'rgb(' + 
+            (Math.floor(Math.random()*56)+200) + ',' +
+            (Math.floor(Math.random()*56)+200) + ',' +
+            (Math.floor(Math.random()*56)+200) +
+            ')';
+        }
+		function setLetterCase(characters)
+		{
+		    var refined = "";
+			var comma = characters.split(',');
+			for(var c = 0; c < comma.length; c++)
+			{
+			    var space =  comma[c].split(' ');
+				if(space[0].length > 0)
+				{
+			        for(var s = 0; s < space.length; s++) refined += " " + space[s].charAt(0).toUpperCase() + space[s].substring(1).toLowerCase();
+				    refined += ",";
+				}
+			}
+			return refined;
+		}
+		
+        function trackLocation()
+        {
+            var cnic = document.getElementById("cnic");
+            var val = cnic.value.trim();
+            if(val.length != 13) 
+			{
+			    warn("Example: 12345-6789012-3");
+			    return error("CNIC should be 13 digit long");
+			}
+            error("");
+            warn("");
+			
+    		var Location = document.getElementById("Location");
+    		var Gender = document.getElementById("Gender");
+			Gender.innerHTML = "Gender: " + gender(val);
+    		Location.innerHTML = "Residence: " + setLetterCase(locate(val));
+
+        }
+    	
+        function isNumber(num)
+        {
+            trackLocation();
+            var charCode = (num.which) ? num.which : num.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) return false;
+            return true;
+        }
+    </script>
+	
+</head>
+<body style="background-color:lightgray;">
+    <center>
+        <input 
+    	    id="cnic" 
+    		oninput="trackLocation()" 
+			onkeypress="return isNumber(event)"
+    		placeholder="Enter full CNIC without dashes like 1560277306097"
+            style="width:330"
+            pattern="[0-9]"			
+    	/><br/>
+		
+        <p id="error" style="color:red"></p>
+        <p id="warn" style="color:yellow"></p>
+        <p id="Location"></p>
+        <p id="Gender"></p><br/>
+	<a href="http://github.com/graysuit/cnic/discussions/new">Discussion</a> | <a href="http://github.com/graysuit/cnic/issues/new">Issues</a>
+	<p>or mail me on <b>hackrefisher@gmail.com</b></p>
+    </center>
+</body>
