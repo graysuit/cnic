@@ -13,7 +13,7 @@ So location is `Kahaan, Kohlu, Sibbi, Balochistan`
 Each code represents a specific place name. Mostly `0` means `null`/`nothing`/`empty`.
 ```python
  ___1) KHYBER PAKHTUNKHWA
-/   \___1) BANNU
+|   \___1) BANNU
 |   |   \___1) BANNU
 |   |   |   \___0
 |   |   |       \___1) BANNU
@@ -819,7 +819,7 @@ Each code represents a specific place name. Mostly `0` means `null`/`nothing`/`e
 |       |       \___4) ASHOMAN
 |       \___5) HUNZA NAGAR
 |       |   \___0
-|       |       \___1
+|       |       \___1) BASEN
 |       |       \___2) HUNZA
 |       |       \___3) NAGR
 |       |       \___4) ALIABAD
