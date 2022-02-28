@@ -7,7 +7,7 @@ Suppose, I have example cnic `55201-1234567-7`. Note first 5 digits i.e `55201`.
             0 = empty
                 1 = KAHAAN
 ```
-So location is `KAHAAN,KOHLU,SIBBI,BALOCHISTAN`
+So location is `Kahaan, Kohlu, Sibbi, Balochistan`
 
 # Cnic Codes TreeView:
 Each code represents a specific place name. Mostly `0` means `null`/`nothing`/`empty`.
