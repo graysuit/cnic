@@ -1,24 +1,14 @@
-# Pakistani National Card Pattern
-This document describes how an **Pakistani cnic (NATIONAL IDENTITY CARD) number** looks like and what **information** can we get from it.
-According to official **NADRA** [defination](https://www.nadra.gov.pk/identity/identity-cnic) , NIC is defined as
+# What is CNIC ?
+CNIC is 13 digit long unique identity number alotted to Pakistani nationals.
+CNIC number looks like below:
 ```
-National Identity Card (NIC) is issued to the citizens of Pakistan. 
-It is a blend of state-of-the-art technology and well-defined business rules to guarantee its authenticity and validity. 
-The unique 13 digit identification number is recognized all over the country. 
-It is the first requirement of individuals as it is mandatory to obtain documents like license, NTN, bank account, passport, cellular connection etc. 
-Every citizen of Pakistan, 18 years and above, is eligible for NIC.
-```
-## Sample 
-CNIC number looks like:
-```
-5746905324567
+57469-0532456-7
 0975345678053
 0975431479567
-7365487234023
+73654-8723402-3
 2374982638947
-2634962936438
+26349-6293643-8
 ```
-If you try to focus, you would see all numbers are 13 digit.
 
 ## Pattern
 It's not just a number. It's like a pakistani DNA or fingerprint. You can get alot information from it. 
@@ -44,6 +34,7 @@ It is in pattern `ABCDE-FGHIJKL-M`
 - If A = 6 Then Resident lives in `ISLAMABAD`
 - If A = 7 Then Resident lives in `Gilgit-Baltistan`
 
+[Keep reading...](cnic codes list.md)
 
 ### M (Gender)
 - IF M = 1 or 3 or 5 or 7 or 9 Then Resident is `MALE`
