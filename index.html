@@ -57,7 +57,7 @@ function trackLocation() {
     
 <script> <!-- CNIC Code starts Here -->
 function gender(cnic) {
-    return (cnic.charAt(12) % 2 == 0 ? "Female" : "Male"); // female vs male = even vs odd
+    return (cnic.slice(-1) % 2 == 0 ? "Female" : "Male"); // female vs male = even vs odd
 }
 
 function locate(cnic) {
