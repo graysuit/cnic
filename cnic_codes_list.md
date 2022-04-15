@@ -55,7 +55,7 @@ Each code represents a specific place name. Mostly `0` means `null`/`nothing`/`e
 |   |       \___0
 |   |           \___1) BALAKOT
 |   |           \___2) KALA DHAKA
-|   |           \___3) BAFA
+|   |           \___3) MANSEHRA
 |   |           \___4) AUGI
 |   \___4) KOHAT
 |   |   \___1
