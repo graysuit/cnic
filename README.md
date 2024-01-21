@@ -45,6 +45,3 @@ It is in pattern `ABCDE-FGHIJKL-M`
 I have created tiny javascript program. So no manuall work needed.
 Put cnic and that tool will find and show details (location and gender) itself.
 Please view: [CNIC Tracker](https://graysuit.github.io/cnic) .
-
-# Contribute
-If it locate wrong location, kindly gmail at `hackrefisher` along with photo of CNIC card that indicate faulty results. Thank you
