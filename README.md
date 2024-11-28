@@ -14,7 +14,7 @@ CNIC number looks like below:
 # How cnic exposes location and gender ?
 It's not just a number. It's like a pakistani DNA or fingerprint. You can get alot information from it. 
 
-It is in pattern `ABCDE-FGHIJKL-M`
+It is in pattern `ABCDE-XXXXXXX-M`
 
 - [`A`](#a-province) shows `PROVINCE` e.g `PUNJAB`
 - `B` shows `DIVISION` e.g `SARGHODHA`
